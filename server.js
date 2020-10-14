@@ -11,9 +11,9 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 // Values
-let email = "201851015@iiitvadodara.ac.in";
-let password = "";
-let head = true;
+let email = "test@gmail.comm";
+let password = "fff";
+let head = false;
 let strict = true;
 
 obj = new GoogleMeet(email, password, head, strict);
